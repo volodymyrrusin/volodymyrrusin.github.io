@@ -1,0 +1,96 @@
+body {
+    background: powderblue;
+    margin: 0;
+}
+
+.header-container {
+    background: aliceblue;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 4fr;
+    height: 50px;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.header-item {
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.header-item:hover {
+    cursor: pointer;
+    background: lightskyblue;
+}
+
+.header-container > a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    margin: 20px;
+}
+
+#about {
+
+}
+
+.about-item {
+    display: grid;
+}
+
+.odd {
+    grid-template-columns: 1fr 2fr;
+}
+
+.even {
+    grid-template-columns: 2fr 1fr;
+}
+
+.about-photo > img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.about-text {
+    text-align: justify;
+    margin: 15px;
+}
+
+.subscribe-text {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+.subscribe-form {
+    width: 60%;
+    margin: auto;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 40px;
+    align-items: center;
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.footer-item > a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-item > a:hover {
+    text-decoration: underline;
+}
