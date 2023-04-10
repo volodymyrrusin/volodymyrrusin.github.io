@@ -71,8 +71,36 @@ body {
 }
 
 .subscribe-form {
-    width: 60%;
+    margin-top: 20px;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 50%;
     margin: auto;
+}
+
+input {
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#submit-form {
+    grid-column: 1 / 3;
+    border: none;
+    height: 40px;
+    border-radius: 15px;
+    background: cornflowerblue;
+}
+
+#submit-form:hover {
+    cursor: pointer;
+    opacity: 60%;
 }
 
 .footer-container {
